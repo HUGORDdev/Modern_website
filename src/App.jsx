@@ -4,6 +4,7 @@ import Testimonials from './components/Testimonials'
 import Navbar from './components/NavBar'
 import Hero from './components/Hero'
 import { useEffect, useState } from 'react'
+import Pricing from './components/Pricing'
 
 
 const App = () => {
@@ -23,8 +24,9 @@ const App = () => {
       <Navbar scrolled={scrolled} />
       <Hero />
       <Features />
-      <Footer />
+      <Pricing/>
       <Testimonials />
+      <Footer />
     </div>
   )
 }
